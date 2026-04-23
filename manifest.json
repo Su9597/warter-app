@@ -89,10 +89,10 @@
             }
         },
         "router" : {
-            "base" : "/songshui/",
+            "base" : "./",
             "mode" : "history"
         },
-        "publicPath" : "/songshui-app/",
+        "publicPath" : "/warter-app/",
         "devServer" : {
             "https" : false
         },

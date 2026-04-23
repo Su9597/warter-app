@@ -1,0 +1,1 @@
+import{c as e,w as s,i as t,o as a,h as o}from"./index-7RVGXTUo.js";import{_ as r}from"./_plugin-vue_export-helper.BCo6x5W8.js";const n=r({data:()=>({}),methods:{}},[["render",function(r,n,u,d,i,l){const p=t;return a(),e(p,null,{default:s((()=>[o(" 消费券列表 ")])),_:1})}]]);export{n as default};

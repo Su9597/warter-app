@@ -1,0 +1,1 @@
+import{o as e,c as n,i as a}from"./index-7RVGXTUo.js";import{_ as o}from"./_plugin-vue_export-helper.BCo6x5W8.js";const r=o({name:"uni-line",data:()=>({})},[["render",function(o,r,s,t,i,c){const d=a;return e(),n(d,{class:"container"})}],["__scopeId","data-v-7d92df7c"]]);export{r as U};
