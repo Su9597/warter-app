@@ -1,0 +1,23 @@
+{
+  "id": "5164177",
+  "name": "2026.04.18送水",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12247266",
+      "name": "展开箭头",
+      "font_class": "zhankaijiantou",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "13625235",
+      "name": "会员",
+      "font_class": "huiyuan",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}

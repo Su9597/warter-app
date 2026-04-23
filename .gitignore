@@ -1,0 +1,15 @@
+# HBuilderX & 编译产物
+.hbuilderx/
+unpackage/
+
+# 依赖
+node_modules/
+uni_modules/
+
+# 日志
+npm-debug.log*
+yarn-error.log*
+
+# 系统
+.DS_Store
+Thumbs.db

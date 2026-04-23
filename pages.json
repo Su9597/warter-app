@@ -1,0 +1,230 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/home/home",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },
+        {
+            "path": "pages/news/news",
+            "style": {
+                "navigationBarTitleText": "百科"
+            }
+        },
+        {
+            "path": "pages/my/my",
+            "style": {
+
+                "navigationStyle": "custom"
+
+            }
+        },
+        {
+            "path": "pages/shop/shop",
+            "style": {
+                "navigationBarTitleText": "送好水"
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {
+
+                "navigationStyle": "custom"
+
+            }
+        },
+        {
+            "path": "pages/news/culture/culture",
+            "style": {
+                "navigationBarTitleText": "企业文化",
+                "navigationStyle": "custom"
+
+            }
+        },
+        {
+            "path": "pages/news/notice/notice",
+            "style": {
+                "navigationBarTitleText": "企业新闻"
+            }
+        },
+        {
+            "path": "pages/news/details/details",
+            "style": {
+                "navigationBarTitleText": "文章详情"
+            }
+        },
+        {
+            "path": "pages/shop/product-detail/product-detail",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/cart/cart",
+            "style": {
+                "navigationBarTitleText": "购物车",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/my/org-member/org-member",
+            "style": {
+                "navigationBarTitleText": "组织架构"
+            }
+        },
+        {
+            "path": "pages/my/client-list/client-list",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/custom-form/custom-form",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/my-order/my-order",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/re-meal/re-meal",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/buy-page/buy-page",
+            "style": {
+                "navigationBarTitleText": "购买"
+            }
+        },
+        {
+            "path": "pages/my/area-agent/area-agent",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/water-card/water-card",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/water-station/water-station",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/coupon-list/coupon-list",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/my-point/my-point",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/my-inform/my-inform",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/transfer-point/transfer-point",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/provide-momeny/provide-momeny",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/service-charge/service-charge",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/my/address-select/address-select",
+            "style": {
+                "navigationBarTitleText": "收货地址"
+
+            }
+        },
+        {
+            "path": "pages/my/new-address/new-address",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "送水app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    // 底部导航
+    "tabBar": {
+        "custom": true,
+        "color": "#979797",
+        "selectedColor": "#333333",
+        "borderStyle": "white",
+        "height": "60px",
+        "fontSize": "10x",
+        "iconWidth": "20px",
+        // "spacing": "18rpx",
+        "backgroundColor": "#ffffff",
+
+        "list": [{
+                "pagePath": "pages/home/home",
+                "iconPath": "static/images/tabbar/home.png",
+                "selectedIconPath": "static/images/tabbar/home-active.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/shop/shop",
+                "iconPath": "static/images/tabbar/shop.png",
+                "selectedIconPath": "static/images/tabbar/shop-active.png",
+                "text": "商城"
+            }, {
+                "pagePath": "pages/news/news",
+                "iconPath": "static/images/tabbar/news.png",
+                "selectedIconPath": "static/images/tabbar/news-active.png",
+                "text": "百科"
+            }, {
+                "pagePath": "pages/my/my",
+                "iconPath": "static/images/tabbar/my.png",
+                "selectedIconPath": "static/images/tabbar/my-active.png",
+                "text": "首页"
+            }
+        ]
+    },
+
+    "uniIdRouter": {},
+
+    "easycom": {
+        "autoscan": true,
+        // 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+        "custom": {
+            "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+            "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+            "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue",
+            "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+        }
+    }
+}
